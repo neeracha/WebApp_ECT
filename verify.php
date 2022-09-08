@@ -14,8 +14,8 @@
         Login = <?php //echo $_POST["login"];?><br>
         Password = <?php// echo $_POST["pwd"];?> -->
         <?php
-        echo "Login = ".$_POST["login"]."<br>";
-        echo "Password = ".$_POST["pwd"];
+       // echo "Login = ".$_POST["login"]."<br>";
+        //echo "Password = ".$_POST["pwd"];
         ?>
         <?php 
             if($_POST["login"]=="admin" && $_POST["pwd"]=="ad1234"){
@@ -27,10 +27,9 @@
                 echo "ชื่อบัญชีหรือรหัสผ่านไม่ถูกต้อง";
             }
         ?>
-
-
-
-
+    </div>
+    <div align="center">
+        <a href="index.php">กลับสู่หน้าหลัก</a>
     </div>
 </body>
 </html>
