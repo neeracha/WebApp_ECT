@@ -25,7 +25,7 @@ if (!isset($_SESSION['id'])) {
             <option value="general">--เรื่องทั่วไป--</option>
             <option value="student">--เรื่องเรียน--</option>
         </select>
-        <a href="login.html" style="float: right;">เข้าสู่ระบบ</a>
+        <a href="login.php" style="float: right;">เข้าสู่ระบบ</a>
         <ul>
             <?php
             for ($i = 1; $i <= 10; $i++) {
