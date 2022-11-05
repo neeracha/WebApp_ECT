@@ -32,7 +32,7 @@ if (!isset($_SESSION['id'])) {
                 <div class="card text-dark bg-white bg-white boder-info">
                     <div class="card-header bg-info text-white">ตั้งกระทู้ใหม่</div>
                     <div class="card-body">
-                        <form action="newpost_save.php" method="$_POST">
+                        <form action="newpost_save.php" method="POST">
                             <div class="row mb-3">
                                 <label class="col-lg-3 col-form-label">หมวดหมู่:</label>
                                 <div class="col-lg-9">

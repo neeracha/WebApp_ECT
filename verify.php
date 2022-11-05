@@ -20,7 +20,7 @@
             die();
         } 
         else {
-            $_SESSION["error"]=1;
+            $_SESSION["error"]='error';
             header("location:login.php");
             die();
         }
